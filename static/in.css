@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    border-radius: 50%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --navbar-height: 59px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: slategrey;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    /* font-family: 'Dancing Script', cursive; */
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url('./static/bg1.jpg') no-repeat center center/cover;
+    height: 650px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+
+
+/* Utility Classes */
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+    padding: 12px;
+    letter-spacing: 30px;
+    padding-top: 50px;
+}
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.center{
+    text-align: center;
+    color: black;
+}
+
+/* Service section */
+
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{ 
+    border: 2px solid black;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+#services .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+
+}
+
+#client-section{ 
+    position: relative;
+    height: 500px;
+}
+
+#client-section::before{
+ content: "";
+ position: absolute;
+ background: url('./static/bg.jpg');
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.8;
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item{
+    padding: 2px 77px;
+    padding-top: 50px;
+}
+
+#clients img{
+    height: 124px;
+}
+
+
+
+.f1{
+    /* border: 1px solid blanchedalmond; */
+    height: 100px;
+    background-color: rgb(54, 53, 53);
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 10px;
+    padding-top: 25px;
+    /* border-radius: 5px; */
+}
+
+#iv{
+    background-color: rgb(26, 22, 22);
+    height: 250px;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 70px;margin-top: 50px;
+    /* border-radius: 5px; */
+    /* opacity: 0.7; */
+}
+
+
+.for1{
+    text-align: center;
+    margin: 50px;
+}
+
+.h{
+    font-size: 50px;
+    padding-top: 105px;
+    color: snow;
+}
+
+p{
+    font-size: 30px;
+    color: black;
+}
+.div1{
+    
+    height: 700px;
+    margin-bottom: 50px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+h3{
+    margin-bottom: 50px;
+    text-align: center;
+    letter-spacing: 30px;
+    margin-top: 50px;
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Dancing Script', cursive;
+}
