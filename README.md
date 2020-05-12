@@ -13,3 +13,11 @@ So Those beginner's who start web development (frontend and backend) both then t
 Ankit Uapdhyay(MERN stack developer)....
 
 tHanK yOu...........
+
+
+
+
+Hi guyss Maine contact.css file upload krdi hai static folder mai apko koi jarurat nhi hai contatchai.txt file ko copy krne ki
+you have to diract download this project....
+
+Thanks(4:44pm , 12/05/2020).
