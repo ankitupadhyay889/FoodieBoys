@@ -105,7 +105,7 @@ html{
 .div1{
     background-image: url("./static/ca.jpg");
     height: 700px;
-    /* margin-bottom: 50px; */
+    
     /* background-position: center; */
     background-size: cover;
 }
