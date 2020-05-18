@@ -21,3 +21,8 @@ Hi guyss Maine contact.css file upload krdi hai static folder mai apko koi jarur
 you have to diract download this project....
 
 Thanks(4:44pm , 12/05/2020).
+
+
+Hii guys Maine tohda editing ki hai about page mai and now its look better than prevoius one.......
+
+Thanks(4:24pm , 18/05/2020).
