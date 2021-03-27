@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    border-radius: 50%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --navbar-height: 59px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: slategrey;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    /* font-family: 'Dancing Script', cursive; */
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+
+.f1{
+    /* border: 1px solid blanchedalmond; */
+    height: 100px;
+    background-color: rgb(54, 53, 53);
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 10px;
+    padding-top: 25px;
+    /* border-radius: 5px; */
+}
+
+#iv{
+    background-color: rgb(26, 22, 22);
+    height: 250px;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 70px;margin-top: 50px;
+    /* border-radius: 5px; */
+    /* opacity: 0.7; */
+}
+
+
+.for1{
+    text-align: center;
+    margin: 50px;
+}
+
+#sub{
+    font-size: 30px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-family: 'Bree Serif', serif;
+    width: 170px;
+}
+
+#sub:hover{
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+#header{
+    margin-bottom: 50px;
+    text-align: center;
+    letter-spacing: 30px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+
+
+input{
+    display: block;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+textarea{
+    display: block;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+
+#na{
+    margin-bottom: 50px;
+    width: 970px;
+    height: 50px;
+}
+
+#ag{
+    margin-bottom: 50px;
+    width: 970px;
+    height: 50px;
+}
+
+.div1{
+    background-image: url("./static/back.jpg");
+    height: 700px;
+    margin-bottom: 50px;
+    background-position: center;
+    background-size: cover;
+}
+
+#f1{
+    opacity: 0.7;
+    padding-top: 50px;
+
+}
+
+section{
+    background-image: url("./static/jah.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    margin-bottom: 100px;
+}
+
+.h{
+    font-size: 50px;
+    padding-top: 175px;
+    color: snow;
+}
+
+p{
+    font-size: 30px;
+    color: wheat;
+}
+
+h3{
+    margin-bottom: 50px;
+    text-align: center;
+    letter-spacing: 30px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+}
